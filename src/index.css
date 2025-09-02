@@ -83,66 +83,72 @@
   }
 }
 
-.container {
+@utility container {
   margin-inline: auto;
   padding-inline: 2rem;
+
+
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+    }
+  }
+  @media (min-width: 1400px) {
+    .container {
+      max-width: 1400px; 
+    }
+  }
+    * {
+    @apply border-border;
+  }
+
+  html {
+  @apply scroll-smooth;
 }
 
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1400px) {
-  .container {
-    max-width: 1400px; 
-  }
-}
 
-.text-glow {
+}
+@utility text-glow {
+  @apply relative;
   text-shadow: 0 0 10px rgba(150, 140, 250, 0.5);
 }
 
-.card-hover {
+@utility card-hover {
   @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
 }
 
-.gradient-border {
+@utility gradient-border {
   @apply relative rounded-md;
   background: linear-gradient(to right, hsl(var(--card)), hsl(var(--card)));
   background-clip: padding-box;
   border: 2px solid transparent;
 }
 
-.cosmic-button {
+@utility cosmic-button {
   @apply px-4 py-2 rounded-full bg-primary text-primary-foreground font-medium
-         transition-all duration-300 hover-shadow-[0_0_10px_rgba(150,140,250,0.7)]
+         transition-all duration-300 hover:shadow-[0_0_10px_rgba(150,140,250,0.7)]
          hover:scale-105 active:scale-95;
 }
 
 
-* {
-  @apply gradient-border;
-}
 
-html {
-  @apply scroll-smooth;
-}
+
+
 
 body{
   @apply bg-background text-foreground transition-colors duration-300;
