@@ -1,8 +1,9 @@
 import { Sun, Moon } from "lucide-react";
 import { useEffect, useState } from "react";
+import { cn } from "../lib/utils";
 
 export const ThemeToggle = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
     useEffect(() => {
         const savedTheme = localStorage.getItem('theme');
@@ -22,11 +23,11 @@ export const ThemeToggle = () => {
                 localStorage.setItem('theme', 'dark');
                 setIsDarkMode(true);
             }
-        };
+    };
 
     return ( 
-        <button onClick = {toggleTheme} className="fixed top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800 shadow-lg z-50"> 
-            {isDarkMode ? ( <Sun className="h-6 w-6 text-yellow-300"/> ) : (<Moon className="h-6 w-6 text-blue-300"/>)} 
+        <button onClick = {toggleTheme} className={cn("fixed top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800 shadow-lg z-50")}> 
+            {isDarkMode ? ( <Sun className="h-6 w-6 text-yellow-300"/> ) : (<Moon className="h-6 w-6 text-blue-900"/>)} 
         </button>
     );
 };

@@ -44,7 +44,7 @@ export const Navbar = () => {
         )}
         >
         <div className = "container flex items-center justify-between mx-auto">
-            <div className="hidden md:flex justify-end space-x-8 text-sm font-medium">
+            <div className="md:flex justify-end space-x-8 text-sm font-medium">
                 {navItems.map((item, key) => (
                     <a key = {key} href = {item.href} className=""> {item.name} </a>
                 ))}
