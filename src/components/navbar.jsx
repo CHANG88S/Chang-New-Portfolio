@@ -3,7 +3,10 @@ import React, { useEffect, useState } from 'react';
 
 const navItems = [
     { name: 'home', href: '#home' },
-    { name: 'about', href: '#about' },]
+    { name: 'projects', href: '#about' },
+    { name: 'about', href: '#about' },
+    { name: 'about', href: '#about' },
+    { name: 'resume', href: '#about' }, ]
 
 export const Navbar = () => {
     const [iscrolled, setIsScrolled] = useState(false);
@@ -40,12 +43,12 @@ export const Navbar = () => {
         //     </nav>
         // </header>
         <nav className = {(
-            "fixed w-full p-2 px-5 z-40 backdrop-blur-sm " + // mx-[-130px] xl:mx-[-30px] xs:-mx-2
+            "fixed w-full p-4 px-5 z-40 backdrop-blur-sm " + // mx-[-130px] xl:mx-[-30px] xs:-mx-2
             (iscrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : " py-5 ")
         )}
         >
-        <div className = "container flex items-center justify-between mx-auto">
-            <div className="md:flex items-center justify-end space-x-8 text-sm font-medium">
+        <div className = "container flex items-center justify-center mx-auto"> 
+            <div className="flex items-center space-x-8 text-sm font-medium cursor-pointer">
                 {navItems.map((item, key) => (
                     <a key = {key} href = {item.href} className=""> {item.name} </a>
                 ))}
