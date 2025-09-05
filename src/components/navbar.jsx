@@ -40,7 +40,7 @@ export const Navbar = () => {
         //     </nav>
         // </header>
         <nav className = {(
-            "fixed top-0 w-full p-2 px-5 z-50 backdrop-blur-sm " + // mx-[-130px] xl:mx-[-30px] xs:-mx-2
+            "fixed w-full p-2 px-5 z-40 backdrop-blur-sm " + // mx-[-130px] xl:mx-[-30px] xs:-mx-2
             (iscrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : " py-5 ")
         )}
         >
