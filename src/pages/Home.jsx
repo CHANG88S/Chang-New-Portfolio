@@ -1,5 +1,6 @@
 import { Navbar } from "../components/navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
+import { AboutMe } from "../components/AboutMe";
 
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
         <Navbar/>
         
         {/* Profile */} 
+        <AboutMe/>
         {/* Projects */} 
         {/* Footer */} 
     </div>
