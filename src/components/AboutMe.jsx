@@ -11,8 +11,7 @@ export const AboutMe = () => {
                 <div className="flex flex-col pl-3">
                     <h1 className="flex justify-between text-m font-bold">Simon Chang</h1>
                     <div className="justify-between gap-3 flex">
-                        <p className="text-m text-left">Simon Chang
-                        </p>
+                        <p className="text-m text-left text-gray-400">B.S in Computer Science | Developer</p>
                     </div>
                 </div>
             </div>
@@ -28,7 +27,7 @@ export const AboutMe = () => {
             </div>
         </div>
         <br></br>
-            <p className="text-m text-left">
+            <p className="text-m text-left root:text-foreground-800 dark:text-gray-200">
                 A developer with an interest in UI/UX and Data Science. Open to other roles in tech. Wanting to learn and gain more experience. Thank you for your time on reviewing my profile!
             </p>
     </div>

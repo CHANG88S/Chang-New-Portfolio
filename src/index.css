@@ -66,7 +66,7 @@
 
 @layer base{
   :root{
-    --background: 210 40% 100%;
+    --background: 50 12% 93%;
     --foreground: 222 47% 11%;
     --border: 214 32% 91%;
     --primary: 250 47% 60%;
@@ -144,10 +144,6 @@
          transition-all duration-300 hover:shadow-[0_0_10px_rgba(150,140,250,0.7)]
          hover:scale-105 active:scale-95;
 }
-
-
-
-
 
 
 body{
