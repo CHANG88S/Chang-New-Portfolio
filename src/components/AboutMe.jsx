@@ -1,7 +1,7 @@
 export const AboutMe = () => {
     return (
         
-    <div className="max-w-2xl mx-auto z-40 pt-16 justify-center">
+    <div className="max-w-3xl mx-auto z-40 pt-16 justify-center">
         <div className="flex items-center justify-between">
             <div className="flex items-center">
             {/* Profile Pic */}
@@ -30,7 +30,7 @@ export const AboutMe = () => {
             </div>
         </div>
         <br></br>
-            <p className="text-m text-left root:text-foreground-800 dark:text-gray-200">
+            <p className="text-m text-left text-gray-400 dark:text-gray-200">
                 A developer with an interest in UI/UX and Data Science. Open to other roles in tech. Wanting to learn and gain more experience. Thank you for your time on reviewing my profile!
             </p>
     </div>
