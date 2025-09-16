@@ -1,7 +1,8 @@
-import { Navbar } from "../components/navbar";
+import { Navbar } from "../components/Navbar";
 import { ThemeToggle } from "../components/ThemeToggle";
 import { AboutMe } from "../components/AboutMe";
 import { Projects } from "../components/Projects";
+import { Skills } from "../components/Skills";
 
 
 export const Home = () => {
@@ -10,7 +11,6 @@ export const Home = () => {
     
         {/* Theme Toggle */} 
         <ThemeToggle/>
-        {/*  */} 
         {/* NavBar */} 
         <Navbar/>
         
@@ -18,6 +18,8 @@ export const Home = () => {
         <AboutMe/>
         {/* Projects */} 
         <Projects/>
+        {/* Skills */} 
+        <Skills/>
         {/* Footer */} 
     </div>
     );
