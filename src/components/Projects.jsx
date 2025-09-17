@@ -28,7 +28,7 @@ export const Projects = () => {
                             </div>
                             <div class= "flex flex-row flex-wrap items-start gap-1.5 mb-2">
                                 <a target="_blank" href="https://github.com/CHANG88S/FoodAppTS">
-                                <div class="items-center rounded-sm border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-gray-800 text-primary-foreground shadow hover:bg-black/80 flex gap-2 px-2 py-1 text-[10px] border_m border-gray-800">
+                                <div class="items-center rounded-sm border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-gray-800 text-primary-foreground shadow hover:bg-foreground/80 flex gap-2 px-2 py-1 text-[10px] border_m border-gray-800">
                                     GitHub
                                 </div>
                                 </a>

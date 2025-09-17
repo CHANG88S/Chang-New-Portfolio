@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { NotFound } from './pages/NotFound'
-import { Navbar } from './components/navbar'
+import { Navbar } from './components/Navbar'
 import { useState } from 'react'
 
 function App() {

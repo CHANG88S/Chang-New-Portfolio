@@ -3,10 +3,10 @@ import React, { useEffect, useState } from 'react';
 
 const navItems = [
     { name: 'home', href: '#home' },
-    { name: 'projects', href: '#about' },
+    { name: 'projects', href: '#projects' },
+    { name: 'skills', href: '#skills' },
     { name: 'about', href: '#about' },
-    { name: 'about', href: '#about' },
-    { name: 'resume', href: '#about' }, ]
+    { name: 'resume', href: '#resume' }, ]
 
 export const Navbar = () => {
     const [iscrolled, setIsScrolled] = useState(false);
