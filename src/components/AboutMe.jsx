@@ -30,7 +30,7 @@ export const AboutMe = () => {
             </div>
         </div>
         <br></br>
-            <p className="text-m text-left text-gray-400 dark:text-gray-200">
+            <p className="text-m text-left text-gray-400 dark:prose-invert">
                 A developer with an interest in UI/UX and Data Science. Open to other roles in tech. Wanting to learn and gain more experience. Thank you for your time on reviewing my profile!
             </p>
     </div>

@@ -11,61 +11,88 @@ export const Skills = () => {
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto background" src="src\assets\python.png" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto background" src="src\assets\logos\react.png" alt="React"/>
+                        <div class="text-xs text-center">
+                            React
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\python.png" alt="Python"/>
+                        <div class="text-xs text-center">
+                            Python
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\typescript.png" alt="Typescript"/>
+                        <div class="text-xs text-center">
+                            Typescript
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\javascript.png" alt="Javascript"/>
+                        <div class="text-xs text-center">
+                            Javascript
+                        </div>
                     </div>
                 </div>
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\html5.png" alt="HTML5"/>
+                        <div class="text-xs text-center">
+                            HTML5
+                        </div>
                     </div>
                 </div>                                
 
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\css3.png" alt="CSS3"/>
+                        <div class="text-xs text-center">
+                            CSS3
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\tailwind.png" alt="TailwindCSS"/>
+                        <div class="text-xs text-center">
+                            Tailwind
+                        </div>
                     </div>
                 </div>
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\mysql.png" alt="MySQL"/>
+                        <div class="text-xs text-center">
+                            MySQL
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\tableau.png" alt="tableau"/>
+                        <div class="text-xs text-center">
+                            Tableau
+                        </div>
                     </div>
                 </div>    
 
@@ -73,7 +100,10 @@ export const Skills = () => {
                 
                 <div className="pt-4 pb-8 rounded-s text-center">
                     <div class="flex w-16 h-full rounded-md flex-col space-y-1.5 skeleton relative border overflow-hidden">
-                        <img class="h-full w-full mx-auto" src="src\assets\profile3.jpg" alt="HTML5"/>
+                        <img class="h-full w-full mx-auto" src="src\assets\logos\aws2.png" alt="AWS"/>
+                        <div class="text-xs text-center">
+                            AWS
+                        </div>
                     </div>
                 </div>                                            
 
