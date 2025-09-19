@@ -1,3 +1,7 @@
+# New Portfolio
+
+Welcome to my new portfolio, I thought that if I wanted to get into UI/UX Design or Frontend that my portfolio should be nice to the eyes of whoever may view this!
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
