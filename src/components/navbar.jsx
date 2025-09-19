@@ -3,9 +3,8 @@ import React, { useEffect, useState } from 'react';
 
 const navItems = [
     { name: 'home', href: '#home' },
-    { name: 'projects', href: '#projects' },
     { name: 'skills', href: '#skills' },
-    { name: 'about', href: '#about' },
+    { name: 'projects', href: '#projects' },
     { name: 'resume', href: '#resume' }, ]
 
 export const Navbar = () => {
