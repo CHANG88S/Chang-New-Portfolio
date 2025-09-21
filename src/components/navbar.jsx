@@ -3,8 +3,9 @@ import React, { useEffect, useState } from 'react';
 
 const navItems = [
     { name: 'home', href: '#home' },
-    { name: 'skills', href: '#skills' },
     { name: 'projects', href: '#projects' },
+    { name: 'skills', href: '#skills' },
+
     { name: 'resume', href: '#resume' }, ]
 
 export const Navbar = () => {
@@ -21,7 +22,7 @@ export const Navbar = () => {
 
     return (
         <nav className = {(
-            "fixed w-full p-4 px-5 z-45 backdrop-blur-sm " + // mx-[-130px] xl:mx-[-30px] xs:-mx-2
+            "fixed w-full p-4 px-5 z-45  " + // mx-[-130px] xl:mx-[-30px] xs:-mx-2
             (iscrolled ? "py-3 bg-background/80 backdrop-blur-md shadow-xs" : " py-5 ")
         )}
         >

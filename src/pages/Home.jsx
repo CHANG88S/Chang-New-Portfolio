@@ -3,6 +3,7 @@ import { ThemeToggle } from "../components/ThemeToggle";
 import { AboutMe } from "../components/AboutMe";
 import { Projects } from "../components/Projects";
 import { Skills } from "../components/Skills";
+import { Resume } from "../components/Resume";
 
 
 export const Home = () => {
@@ -20,7 +21,11 @@ export const Home = () => {
         <Projects/>
         {/* Skills */} 
         <Skills/>
+        {/* Resume */} 
+        <Resume/>
+        
         {/* Footer */} 
+        
     </div>
     );
 };

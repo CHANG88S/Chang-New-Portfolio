@@ -2,7 +2,7 @@ export const Skills = () => {
     return (
         <div className="max-w-3xl mx-auto z-30 pt-16 justify-center">
             <div className="flex items-center">
-                <h1 className="text-3xl font-bold">Skills</h1>
+                <h1 id="skills" className="text-3xl font-bold">Skills</h1>
             </div>
 
             <div className="grid grid-cols-10 gap-4">

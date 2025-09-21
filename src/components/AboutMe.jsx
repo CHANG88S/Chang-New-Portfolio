@@ -1,7 +1,7 @@
 export const AboutMe = () => {
     return (
         
-    <div className="max-w-3xl mx-auto z-40 pt-16 justify-center">
+    <div id="home" className="max-w-3xl mx-auto z-40 pt-16 justify-center">
         <div className="flex items-center justify-between">
             <div className="flex items-center">
             {/* Profile Pic */}
