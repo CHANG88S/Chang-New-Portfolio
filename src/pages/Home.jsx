@@ -4,7 +4,7 @@ import { AboutMe } from "../components/AboutMe";
 import { Projects } from "../components/Projects";
 import { Skills } from "../components/Skills";
 import { Resume } from "../components/Resume";
-
+import { Footer } from "../components/Footer";
 
 export const Home = () => {
     return (
@@ -23,9 +23,8 @@ export const Home = () => {
         <Skills/>
         {/* Resume */} 
         <Resume/>
-        
         {/* Footer */} 
-        
+        <Footer/>
     </div>
     );
 };

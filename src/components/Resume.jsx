@@ -1,16 +1,16 @@
 export const Resume = () => {
     return (
-    <div className="max-w-3xl mx-auto z-35 justify-center">
+    <div className="max-w-3xl mx-auto z-30 justify-center pb-4">
         <div className="flex items-center pb-8">
-            <h1 id="Resume" className="text-3xl font-bold">Resume</h1>
+            <h1 id="resume" className="text-3xl font-bold scroll-mt-20">Resume</h1>
         </div>
         
-        <embed 
-        src="src\assets\resume.pdf" 
+        <iframe 
+        src="/resume.pdf#toolbar=0&navpanes=0" 
         type="application/pdf" 
         width="100%" 
-        height="800px" 
-        className="rounded-lg shadow-lg"
+        height="1000px" 
+        style={{ border: 'none' }}
       />
     </div>
     );

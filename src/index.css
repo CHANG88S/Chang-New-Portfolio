@@ -119,6 +119,9 @@
 
   html {
   @apply scroll-smooth;
+
+
+  
 }
 
 
@@ -157,3 +160,5 @@ body{
   padding: 0;
   text-align: center;
 }
+
+
